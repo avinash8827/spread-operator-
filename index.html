@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>spread operator </title>
+        <style>
+
+        </style>
+        <script>
+            //1. funcation defination
+            let myFunctionAvi =(n) =>{
+                //funcation body
+                console.log('time said '+n+' mom said no' )
+            }
+            //funcation calling
+            myFunctionAvi("Can i have a snake?");
+            //1. funcation defination
+            let myFunctionAvi1 =(m) =>{
+                //funcation body
+                console.log('That ladybug'+m+'as big as the butterfly ' )
+            }
+            //funcation calling
+            myFunctionAvi1("is not");
+             //1. funcation defination
+             let myFunctionAvi2 =(p) =>{
+                //funcation body
+                console.log('The butterfly'+p+'big as that bird' )
+            }
+            //funcation calling
+            myFunctionAvi2("is not as ");
+             //1. funcation defination
+             let myFunctionAvi3 =(r) =>{
+                //funcation body
+                console.log('That cat is'+r+'as that cat' )
+            }
+            //funcation calling
+            myFunctionAvi3("not as big");
+            //1. funcation defination
+            let myFunctionAvi4 =(q) =>{
+                //funcation body
+                console.log('The dog is '+q+'as that horse' )
+            }
+            //funcation calling
+            myFunctionAvi4("not as big");
+
+
+            //Hindustan Times is an Indian English-language daily newspaper introduced and founded in 1924 by Sunder Singh Lyallpuri, founder-father of the Akali movement and the Shiromani Akali Dal in Punjab Province. It played integral roles in the Indian independence movement as a nationalist daily.
+            let a =["Hindustan times is an indian"];
+            let b =[...a,"English-language","daily newspaper","introduced","and","founded","in","1924"];
+            let c =[...b,"by","Sunder Singh","Lyallpuri","founder-father","of","the","Akali","movement",];
+            let d =[...c,"and","the","Shiromani","Akali","Dal","in","Punjab","Province."];
+            let e =[...d,"It","played","integral","roles","in","the","Indian","independence"];
+            let f =[...e,"movement","as","a","nationlist","Daily"];
+            var news="";
+            for(var i=0;i<f.length;i++){
+                news = news + f [i] + " ";
+            }
+            console.log(news);
+            //Another video has surfaced of the October 3 incident in Lakhimpur Kheri.Congress tweeted the video claiming that it is from the violence-hit district of Uttar Pradesh. HT could not independently verify the authenticity of the video or the sequence of events before it. The video is claimed to be a longer and clearer clip of October 3 violence. The video shows a car, at high speed, ramming farmers. Before the car hit them, farmers were walking with flags. Two more cars followed the SUV which hit the crowd first. A lower resolution, shorter clip of the same video had earlier gone viral. Clip was shared by the opposition as proof that the convoy of minister's cars were to blame for Sunday's clashes. Eight people, including four farmers, were killed in Lakhimpur Kheri on Sunday. Farmers have accused Union Minister Ajay Kumar Mishra & his son Ashish Mishra in the case. FIR mentions MoS Home Ajay Mishra’s son Ashish Mishra's name. Farmer groups claim that the minister's son had been in a car in the convoy when the vehicle rammed into protesters. Ajay Mishra's son has however denied being present at the spot at the time of incident.
+            let g =["Another video has surfaced of the October 3 incident in Lakhimpur Kheri."];
+            let h =[...g,"Congress tweeted the video claiming that it is from the violence-hit district of Uttar Pradesh."];
+            let q =[...h,"HT could not independently verify the authenticity of the video or the sequence of events before it."];
+            let j =[...q,"The video is claimed to be a longer and clearer clip of October 3 violence."];
+            let k =[...j,"The video shows a car, at high speed, ramming farmers. Before the car hit them, farmers were walking with flags."];
+            let l =[...k,"Two more cars followed the SUV which hit the crowd first."];
+            let r =[...l,"A lower resolution, shorter clip of the same video had earlier gone viral."];
+            let n =[...r,"Clip was shared by the opposition as proof that the convoy of minister's cars were to blame for Sunday's clashes. Eight people, including four farmers, were killed in Lakhimpur Kheri on Sunday."];
+            let p =[...n,"Farmers have accused Union Minister Ajay Kumar Mishra & his son Ashish Mishra in the case. FIR mentions MoS Home Ajay Mishra’s son Ashish Mishra's name. Farmer groups claim that the minister's son had been in a car in the convoy when the vehicle rammed into protesters. Ajay Mishra's son has however denied being present at the spot at the time of incident."];
+            var news2="";
+            for(var i=0;i<p.length;i++){
+                news2 = news2 + p [i] + " ";
+            }
+            console.log(news2);
+
+        </script>
+    </head>
+    <body>
+        <script>
+
+        </script>
+    </body>
+</html>
